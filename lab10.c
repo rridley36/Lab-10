@@ -53,7 +53,7 @@ int main(void) {
 
     // Read the number of the words in the dictionary
     // Parse line by line, and insert each word into the trie data structure
-    char *pWords[] = {"notaword", "ucf", "no", "note", "corg", "ucf", "no", "corg", "corg"};
+    char *pWords[] = {"notaword", "ucf", "no", "note", "corg"};
     int numWords = sizeof(pWords) / sizeof(pWords[0]);
 
     for (int i = 0; i < numWords; i++) {
